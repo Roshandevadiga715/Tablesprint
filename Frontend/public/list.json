@@ -1,0 +1,30 @@
+[
+    {
+    "id":1,
+    "name":"dal&pluses",
+    "image":"",
+    "status":"active",
+    "sequence":1
+},
+{
+    "id":2,
+    "name":"Ghee&oil",
+    "image":"",
+    "status":"active",
+    "sequence":2
+},
+{
+    "id":3,
+    "name":"Tea",
+    "image":"",
+    "status":"inactive",
+    "sequence":3
+},
+{
+    "id":3,
+    "name":"Atta&Flours",
+    "image":"",
+    "status":"inactive",
+    "sequence":3
+}
+]
