@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-
 function AddProduct() {
   const navigate = useNavigate();
   const [name, setName] = useState('');
@@ -13,10 +12,6 @@ function AddProduct() {
   const [selectedSubCategory, setSelectedSubcategory] = useState('');
 const[list, setList] = useState([])
 const[SubData, setSubData] = useState([])
-console.log('product',product);
-
-
-
   const fetchCategorie = async () => {
     try {
       const response = await axios.get('http://localhost:4001/api/get',{

@@ -365,3 +365,9 @@ h2 {
 .nav{
   background-color: #4b2d7e;
 }
+.deletedit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}

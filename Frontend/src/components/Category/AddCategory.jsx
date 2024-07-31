@@ -1,8 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Navbar from '../Navbar';
-import Category from './Category';
+
 
 function AddCategory() {
   const navigate = useNavigate();

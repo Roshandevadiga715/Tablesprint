@@ -10,7 +10,6 @@ function EditSubCategory() {
   const [sequence, setSequence] = useState('');
   const [image, setImage] = useState(null);
   const [status, setStatus] = useState('');
-
   useEffect(() => {
     axios.get(`/api/subcategories/${id}`)
       .then(response => {

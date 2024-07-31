@@ -81,33 +81,10 @@ function EditProducts() {
         </div>
         <div className="form-group">
           <label htmlFor="category">Category</label>
-          {/* <select
-            id="category"
-            className="form-control"
-            value={selectedCategory}
-            onChange={handleCategoryChange}
-            required
-          >
-            <option value="">Select Category</option>
-            {categories.map(category => (
-              <option key={category.id} value={category.id}>{category.name}</option>
-            ))}
-          </select> */}
         </div>
         <div className="form-group">
           <label htmlFor="subcategory">SubCategory</label>
-          {/* <select
-            id="subcategory"
-            className="form-control"
-            value={selectedSubcategory}
-            onChange={handleSubcategoryChange}
-            required
-          >
-            <option value="">Select SubCategory</option>
-            {subcategories.map(subcategory => (
-              <option key={subcategory.id} value={subcategory.id}>{subcategory.name}</option>
-            ))}
-          </select> */}
+      
         </div>
         <div className="form-group">
           <label htmlFor="uploadImage">Upload Image</label>
